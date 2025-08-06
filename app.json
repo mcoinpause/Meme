@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MemeCoin Pulse",
+    "slug": "memecoin-pulse-detailed",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mcoinpulse.meme"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
+
